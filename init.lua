@@ -99,7 +99,7 @@ local accentMap = {
 }
 
 function Utf8to32(utf8str)
-    local bit
+    local bit = require "bit"
     if type(bit32) == "table" then
         bit = bit32
     end
